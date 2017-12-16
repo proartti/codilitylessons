@@ -1,4 +1,7 @@
 
+// Link to task result  => https://codility.com/demo/results/trainingUG7JMH-59S/
+// Link to Repl.it      => https://repl.it/@tdonatti/BinaryGap
+
 function solution(N) {
     const binaryValue = N.toString(2);
     const binaryArray = binaryValue.split('');
