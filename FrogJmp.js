@@ -5,12 +5,12 @@
 
 function solution(X, Y, D) {
     return Math.ceil((Y - X) / D); 
-  }
-  
-  frogJups = [
+}
+
+frogJups = [
     [10, 85, 30],
     [1, 2, 1],
     [123, 42433, 4],
-  ];
-  
-  frogJups.forEach(N => console.log(solution(N[0], N[1], N[2])))
+];
+
+frogJups.forEach(N => console.log(solution(N[0], N[1], N[2])))
